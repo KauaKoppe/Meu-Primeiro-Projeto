@@ -1,0 +1,465 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*-----Inicio do menu-----*/
+header {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 80px;
+}
+
+#cabeçalho nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 1200px;
+}
+
+#cabeçalho img {
+    position: absolute;
+    left: 0;
+    width: 180px;
+}
+
+#cabeçalho ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 0;
+    font-size: 18px;
+}
+
+#cabeçalho li {
+    margin: 20px;
+    font-weight: bold;
+}
+
+.estilo-menu{
+    text-decoration: none;
+    color: white;
+}
+
+.menu:hover {
+    cursor: pointer;
+}
+/*-----Fim do menu-----*/
+
+
+/*-----Inicio do footer-----*/
+footer{
+    width: 100%;
+    min-height: 210px;
+    display: flex;
+    background-color: rgb(34, 34, 34);
+}
+
+footer .box{
+    width: 320px;
+    min-height: 150px;
+    padding: 20px;
+}
+
+footer .box:nth-child(4){
+    width: 400px;
+}
+
+#ajuste{
+    margin-left: 100px;
+}
+
+.box h3{
+    color: #ffd582;
+    margin-bottom: 20px;
+}
+
+.box ul li{
+    margin: 10px 0px;
+    list-style: none;
+}
+
+.box ul li a{
+    color:#ddd;
+    text-decoration: none;
+}
+
+.box ul li a:hover{
+    color:#fff;
+          
+}
+
+.box p{
+    color:#ddd;
+}
+
+.box img{
+    width: 40px;
+    padding: 5px;
+}
+
+#adendo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: rgba(156, 156, 156, 0.555);
+    background-color: rgb(34, 34, 34);
+}
+/*-----Final do footer-----*/
+
+
+/*-----Inicio da página principal-----*/
+
+
+/*-----Fim da página principal-----*/
+
+
+/*-----Inicio das lojas-----*/
+.mnltllojas{
+    max-width: 150px;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: block;
+}
+
+.mnltllojas li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+.mnltllojas h1{
+    font-size: 1.1em;
+    color: #fdb72a;
+    font-weight: bold;
+    padding-top: 20px;
+    text-shadow: 1pt 1pt #e79a00;
+}
+
+.mnltllojas h2{
+    font-size: 1.0em;
+}
+
+#overlojas{
+    height: 300px;
+    overflow: auto;
+}
+
+.ljstyle{
+    width: 350px;
+    margin-right: auto;
+    margin-left: auto; 
+    box-shadow: 1px 1px 10px #d3d2d2;
+    padding-bottom: 5px;
+}
+
+.ljstyle img{
+    display: inline-block;
+}
+
+.ljstyle h3{
+    font-size: 1.0em;
+    margin: 10px;
+}
+
+.ljstyle p{
+    font-size: 0.9em;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.iconsloja{
+    margin-left: 10px;
+}
+/*-----Fim das lojas-----*/
+
+
+/*-----Inicio do Fale conosco-----*/
+#img-faleconosco{
+    width: 100%;
+    min-height: 440px;
+    background-image: url(./Imagens/atendimento.jpeg);
+    background-size: cover; 
+}
+
+#flets{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#flets h1{
+    font-size: 1.7em;
+    color: #fdb72a;
+    font-weight: bold;
+    padding-top: 10px;
+    text-shadow: 1pt 1pt #e79a00;
+}
+
+#flets p{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+#flets a{
+    text-decoration: none;
+     color: #f8b327;
+}
+
+#flets a:hover{
+   color: #fdcd6b;
+}
+
+.ep1{
+    padding-top: 20px;
+}
+
+.ep2{ 
+    padding-bottom: 10px;
+}
+/*-----Fim do Fale conosco-----*/
+
+
+/*-----Inicio do Orçamento on-line-----*/
+#img-orçamento{
+    width: 100%;
+    min-height: 440px;
+    background-image: url(./Imagens/testedevisao.jpeg);
+    background-size: cover; 
+}
+  
+#conteorc{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+#conteorc p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+#conteorc h1{
+    font-size: 1.7em; 
+    text-shadow: 1pt 1pt black;
+}
+
+#conteorc h2{
+    font-size: 1.1em;
+    color: #7F7F7F;
+    margin-left: 10px;
+}
+
+.ajustetext{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#estilodados{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#estilodados th{
+    padding: 10px;
+}
+
+#estilodados input{
+    width: 70%;  
+    margin-right: 15px;
+    margin-left: 30px; 
+    padding: 5px;
+}
+
+#ajusteadi{  
+    margin-left: 78%;
+}
+
+#ajusteadi input{
+    padding: 5px;
+    width: 69px;
+    margin-top: 15px;
+}
+
+#ajusteadi td{
+    padding-right: 15px;    
+}
+
+#ajusteadi p{
+    font-weight: bold;
+}
+
+.fontedados{
+    color: #5f5f5f;
+}
+
+#boxorc{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #d3d2d2;
+    padding: 10px;
+}
+
+#boxorc2{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #d3d2d2;
+    padding: 10px;
+}
+
+#boxorc2 input{
+    width: 90%;  
+    margin-right: 15px;
+    margin-left: 30px; 
+    padding: 5px;
+}
+
+#boxorc2 p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+#boxorc3{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #d3d2d2;
+    padding: 10px;
+}
+
+#boxorc3 select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(./Imagens/arrow.jpg);
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+#boxorc4{
+    width: 800px;
+    margin-top: 40px;
+    text-align: center;
+}
+
+#boxorc4 input[type="submit"]{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 215px; 
+    font-size: 1.1em;
+}
+/*-----Final do Orçamento on-line-----*/
+
+
+/*-----Inicio da Conta-----*/
+#conteiner-cn{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+} 
+
+#conteiner-cn2{
+    max-width: 230px;
+    padding: 20px;
+    padding-right: 80px;
+    font-weight: bold;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+
+#conteiner-cn3{
+    max-width: 230px;
+    padding: 20px;
+    padding-left: 80px;
+    margin-bottom: 19px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.espaço{
+    margin-bottom: 25px;
+}
+
+.stylein input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.stylein input[type="submit"]{
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+/*-----Final da Conta-----*/
+
+
+/*-----Inicio do Sobre-----*/
+#box-história{
+    display: flex;
+    justify-content: center;
+}
+
+#img-sobre{
+    width: 100%;
+    min-height: 440px;
+    background-image: url(./Imagens/propaganda2.jpeg);
+    background-size: cover;
+}
+
+.história{
+    width: 500px;
+    padding: 50px;
+
+}
+
+#box-história h2{
+    margin-bottom: 10px;
+    color: #fdb72a;
+    font-weight: bold;
+    text-shadow: 1pt 1pt #e79a00;
+}
+
+#box-história h3{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-shadow: 1px 1px black;
+}
+
+#box-história p{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+#box-história li{
+    margin-left: 30px;
+}
+/*-----Final do Sobre-----*/
